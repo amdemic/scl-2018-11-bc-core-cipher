@@ -19,7 +19,7 @@ En la actualidad, todos los cifrados de sustitución simple se descifran con muc
 
 #Desarrollo de Cripto Cipher#
 
-1)Proceso y decisiones del diseño:
+#1.Proceso y decisiones del diseño:
 siempre se buscó ser lo mas claro en referencia a la información que sería entregada al usuario para que pueda ejecutar sin problemas Cripto Cipher 
 App Web.
 Por lo que me enfoqué en líneas de  texto como guía  para que el usuario lograra los resultados esperados: Cifrar o Descifrar.
@@ -27,10 +27,10 @@ Opté por una presentación vertical, para provocar visualmente un orden de las 
 Utilice un encabezado que tuviera que ver directamente con la el público a la que está dirirgido mi producto, en éste caso los usurarios de Whatsapp,  dicho encabezado contiene el logo de dicha App y personas realizando la acción de comunicarse a través de la misma, para provocar en el usuario la intuición al propósito de mi producto.
 Luego busque un fondo que fuera cómodo para la lectura y destaqué con color blanco los espacios donde el usuario debe ingresar la información requerida para que se pueda ejecutar la acción buscada (cifra o descifrar)
 Finalmente entrego el resultado de la acción realizada, formato que puede ser copiado por el usuario con el fin de que pueda pegarlo en Whatsapp y poder así comunicarse de manera confidencial.
-2) Usuarios y relación con Cripto Cipher:
+#2.Usuarios y relación con Cripto Cipher:
 Se eligió al usuario de Whatsapp porque es una App que hoy en día es utilizada por mas de 1300 millones de personas en el planeta, la cual requiere del texto para la comunicación entre sus usuarios. 
 Cripto Cipher se relaciona directamente con éste público debido a que la comunicación se realiza mendiante mensajería de texto y Cripto es una App que entrega confidencialidad a los textos permitiéndole al usuario cifrarlos y descifrarlos.
-3) ¿Cómo Cripto Cipher soluciona los problemas y necesidades de los usuarios?
+#3 ¿Cómo Cripto Cipher soluciona los problemas y necesidades de los usuarios?
 Se buscó primero el problema/necesidad del usuario: ¿cómo poder proteger cierta información  que el usuario comparte a través de mensajes de texto ante lectores fortuitos?”
 Hemos visto a lo largo del tiempo historias donde un simple descuido de un dispositivo puso en evidencia cierta información que ocasionó serias consecuencias para el usuario.
 Para ejecutar Whatsapp ademas de teléfonos móviles se utilizan ordenadores  y tabletas, estos últimos difíciles de guardar en un bolsillo lo cual hace que la información quede aun más expuesta a un lector no autorizado en caso de un descuido.
