@@ -9,10 +9,19 @@ window.cipher = {
       if (strToAscii >= 65 && strToAscii <= 90) {
         result += String.fromCharCode((strToAscii - 65 + offset) % 26 + 65);
       }
-      else {
+
+    else if (strToAscii >= 97 && strToAscii <= 122) { 
+      result += String.fromCharCode((strToAscii - 97 + offset) % 26 + 97);
+    }
+
+    else if (strToAscii==209 || strToAscii==241) {
+      result += String.fromCharCode((strToAscii - 65 + offset) % 26 + 65);
+    }
+      
+    else {
         result += String.fromCharCode(strToAscii);
-      } 
       }
+    }
     return result;
   },
      
@@ -27,6 +36,11 @@ window.cipher = {
       if (strToAscii >= 65 && strToAscii <= 90) {
         result += String.fromCharCode((strToAscii - 65 - offset) % 26 + 65);
       }
+      else if (strToAscii >= 97 && strToAscii <= 122) { 
+        result += String.fromCharCode((strToAscii - 97 + offset) % 26 + 97);
+      }
+
+
       else {
         result += String.fromCharCode(strToAscii);
       }
