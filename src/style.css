@@ -70,7 +70,7 @@ h3 {
        
     #button {
         background-color:white;
-        border: none;
+        border-radius: 15px;
         color:black;
         padding: 15px 25px;
         text-align: center;
@@ -85,7 +85,7 @@ h3 {
 
     #button1 {
         background-color: black;
-        border: none;
+        border-radius: 15px;
         color: white;
         padding: 15px 25px;
         text-align: center;
@@ -102,15 +102,13 @@ h3 {
 
     #recargarpagina {
         background-color: rgb(147, 228, 82);
-        border: none;
         color: white;
         padding: 15px 25px;
         text-align: center;
         font-size: 16px;
         cursor: pointer;
         margin: 40px auto;
-       
-    
+        border-radius: 15px;
     }
 
 
@@ -143,7 +141,6 @@ h3 {
         height: 100px;
         margin: 0;
         text-align: center;  
-
 
     }
 
