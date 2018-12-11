@@ -4,7 +4,7 @@ window.cipher = {
     offset= parseInt(offset);
 
   if (offset < 0){
-    offset= -(parseInt(-(-offset)));
+    offset= -(parseInt(offset));
   }
     
     for (let i = 0; i < str.length; i++) {
@@ -21,6 +21,7 @@ window.cipher = {
 
     else if (strToAscii >= 48 && strToAscii <= 57) {
       result += String.fromCharCode((strToAscii - 48 + offset) % 10 + 48);
+
     }
       
     else {
@@ -33,6 +34,10 @@ window.cipher = {
   decode: (str, offset) => {
     let result ='';
     offset= parseInt(offset);
+
+    if (offset < 0){
+      offset= -(parseInt(offset));
+    }
     
     
     for (let i = 0; i < str.length; i++) {
@@ -44,6 +49,10 @@ window.cipher = {
       else if (strToAscii >= 97 && strToAscii <= 122) { 
         result += String.fromCharCode((strToAscii - 97 - offset) % 26 + 97);
       }
+      else if (strToAscii >= 48 && strToAscii <= 57) {
+        result += String.fromCharCode((strToAscii - 48 - offset) % 10 + 48);
+      }
+
       else {
         result += String.fromCharCode(strToAscii);
       }
