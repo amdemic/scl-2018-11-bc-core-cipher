@@ -17,6 +17,8 @@ const result = window.cipher.decode(str,offset);
 root.innerHTML = result;
 
 });
-
-
 }
+
+
+
+

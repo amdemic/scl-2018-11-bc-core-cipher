@@ -62,8 +62,8 @@ h3 {
     #offset {
         margin-left: 30px;
         text-align: center;
-        height: 75px;
-        width: 75px
+        height: 60px;
+        width: 60px
        
     
     }
@@ -98,6 +98,21 @@ h3 {
     #button1:hover {
     background-color: rgb(238, 139, 10);/*hace que el boton se oscurezca cuando estan encima de él*/
     }
+
+
+    #recargarpagina {
+        background-color: rgb(147, 228, 82);
+        border: none;
+        color: white;
+        padding: 15px 25px;
+        text-align: center;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 40px auto;
+       
+    
+    }
+
 
     #root {
         text-align: center;
