@@ -14,72 +14,51 @@
 <body>
 
     <header>
-        <div class="logo">
-            <h1>CRIPTO</h1>
-        </div>
+        <h1>CRIPTO CIPHER</h1>
     </header>
 
-    <div class="contenedor">
-        <div class="image">
-            <article>
-                <h2>Método de cifrado Cesar</h2>
-                <br>
+    <h2>Método de cifrado Cesar</h2>
+    <h3>Para usuarios de WhatsApp, por qué?</h3>
+    <p>Porque compartimos informacion personal y muy importante que por
+        descuido podria quedar a disposición de
+        un lector no autorizado</p>
+    <br>
 
-                <h3>¿Por qué proteger nuestras conversaciones con CRIPTO en
-                    WhatsApp?</h3>
-                <p>Whatsapp es utilizada por aproximadamente 1.300 millones de
-                    personas en el Planeta, segun una estadistica del mes de Julio de
-                    éste año.
-                    Resulta que tambien mucha de la información que compartimos es confidencial, la App nos permite
-                    vincularla incluso a nuestro pc.
-                    Es por ello que CRIPTO está diseñado para entregarte una
-                    codificacion para los mensajes que deseas proteger de una manera
-                    facil y sencilla.</p>
-                <br>
+    <h2>COMENCEMOS!</h2>
+    <div class="cajatexoff">
+        <div class="cajatexto">
+            <p>Ingresa tu mensaje aquí para poder cifrarlo.</p>
             </article>
-        </div>
+            <br>
+            <br>
+            <textarea name="" id="textarea" placeholder="Mensaje"></textarea>
 
+        </div>
         <br>
-
-        <h2>COMENCEMOS!</h2>
-        <div class="cajatexoff">
-            <div class="cajatexto">
-                <article>
-                    <p>"Ingresa tu mensaje aquí por favor, CON LETRAS MAYÚSCULAS, no utilices símbolos sino
-                        sólo letras. Si está cifrado recuerda solicitarle el N° de desplazamiento a quién
-                        te lo entregó para que puedas descifrar."</p>
-                </article>
-                <br>
-                <br>
-                <textarea name="" id="textarea" placeholder="Mensaje"></textarea>
-
-            </div>
+        <div class="comentariolineaoffset">
+            <p>Ingresa aqui un N° el cual servira de llave para descifrar tu mensaje</p>
             <br>
-
-            <p>"Ingresa aqui el N° de desplazamiento,si vas a cifrar,
-                recuerda que debes entregarle el mismo número a la persona que descifrará tu mensaje."</p>
-            <br>
-            <textarea name="" id="offset" placeholder="N°"></textarea>
-        </div><br><br><br><br>
-        
-        <h2>Haz click en el boton según qué deseas hacer con tu mensaje</h2>
-
-        <div class="cajabotones">
-            <button type="submit" id="button">CIFRAR</button>
-
-            <button type="submit" id="button1">DESCIFRAR</button>
-
-
-            <div id="root"></div>
-
-            <button type="submit" id="recargarpagina">VOLVER A EMPEZAR</button>
-
         </div>
-        <script src="cipher.js"></script>
+        <textarea name="" id="offset" placeholder="N°"></textarea>
+    </div>
+    <br><br><br><br>
 
-        <script src="index.js"></script>
+    <h2>Haz click en el boton según qué deseas hacer con tu mensaje</h2>
+
+    <div class="cajabotones">
+        <button type="submit" id="button">CIFRAR</button>
+
+        <button type="submit" id="button1">DESCIFRAR</button>
+
+
+        <div id="root"></div>
+
+        <button type="submit" id="recargarpagina">VOLVER A EMPEZAR</button>
 
     </div>
+    <script src="cipher.js"></script>
+
+    <script src="index.js"></script>
 </body>
 
 </html>
