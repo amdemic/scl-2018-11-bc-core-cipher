@@ -6,7 +6,6 @@ window.cipher = {
   if (offset < 0){
     offset= -(parseInt(-(-offset)));
   }
-  
     
     for (let i = 0; i < str.length; i++) {
       let strToAscii = str.charCodeAt(i);

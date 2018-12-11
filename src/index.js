@@ -18,6 +18,15 @@ root.innerHTML = result;
 
 });
 
+document.getElementById("recargarpagina").addEventListener("click",() =>{
+ document.getElementById("textarea").value= "";
+ document.getElementById("offset").value= "";
+ document.getElementById("root").innerHTML= "";
+ 
+
+});
+
+
 }
 
 
